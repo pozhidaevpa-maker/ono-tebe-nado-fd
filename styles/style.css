@@ -1,71 +1,73 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Raleway, sans-serif;
-    font-weight: 400;
+  margin: auto;
+  min-height: 283px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
 }
 
 .header_menu-list {
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-    list-style: circle;   
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  gap: 32px;
+  list-style: circle;
 }
 
 .header_menu-link {
-    color: #000000;
-    font-size: 18px;
+  color: #000000;
+  font-size: 18px;
 }
 
 .header_menu-item_active .header_menu-link {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 
 .header_logo {
-    display: block;
-    width: 148px; 
+  display: block;
+  width: 148px;
 }
 
 .header_logo-image {
-    width: 100%;
+  width: 100%;
 }
 
 .address {
-    color: #000000;
-    font-size: 18px;  
-}
-
-.address-nuber {
-    text-decoration: underline; 
-}
-
-.address-info {
-    text-decoration: underline; 
+  color: #000000;
+  font-size: 18px;
+  justify-self: end;
 }
 
 .cover {
-    min-height: 757px;
-    background-image: url(../images/cover.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+  display: block;  
+  margin-bottom: 180px;
+  min-height: 757px;
+  background-image: url(../images/cover.jpg);
 }
 
-.cover-title {
-    width: 100%;
-    color: #fff;
-    
-}
-
-.accent-span {
+.lots {
     display: block;
+    margin: 0 24px 120px 0;
+    min-height: 723px; 
 }
 
-.text.center {
-    text-align: center;
+.about {
+    display: block;
+    margin: 0 24px 120px 0;
+    min-height: 723px; 
 }
 
-.text-right {
-    text-align: right;
+
+.card .card_type-film {
+   background-image: url(../images/card-lot-01.jpg); 
+}
+
+.card .card_type-book {
+   background-image: url(../images/card-lot-02.jpg); 
+}
+
+.card .card_type-picture {
+   background-image: url(../images/card-lot-03.jpg); 
 }
