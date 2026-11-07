@@ -1,1 +1,1 @@
-https://github.com/pozhidaevpa-maker/ono-tebe-nado-fgd.git
+https://github.com/pozhidaevpa-maker/ono-tebe-nado-fd
